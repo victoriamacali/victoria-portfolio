@@ -33,7 +33,7 @@ export default function VictoriaMacaliWebsiteMockup() {
           <div className="flex items-center gap-4">
             <div className="w-11 h-11 rounded-2xl border border-[#EF90C4]/40 flex items-center justify-center text-sm font-semibold tracking-[0.25em] bg-[#0B2141]/10 text-[#0B2141]">VM</div>
             <div>
-                <h1 className="text-lg tracking-[0.22em] text-[#EF90C4] font-semibold">VICTORIA MACALI</h1>
+                <h1 className="text-lg tracking-[0.22em] text-black font-semibold">VICTORIA MACALI</h1>
               <p className="text-[11px] tracking-[0.35em] text-[#EF90C4] uppercase">DATA SCIENTIST • AI RESEARCHER</p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function VictoriaMacaliWebsiteMockup() {
 <section className="max-w-7xl mx-auto px-6 py-16 md:py-24">
   <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-    <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-[#EF90C4] leading-tight">
+    <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-black leading-tight">
       Transforming data into intelligent systems and AI strategy.
     </h2>
 
