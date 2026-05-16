@@ -32,9 +32,9 @@ export default function VictoriaMacaliWebsiteMockup() {
 
           <div className="flex items-center gap-4">
             <div>
-            <h1 className="text-3xl md:text-5xl font-semibold text-[#0B2141] mb-10">
+            <h3 className="text-3xl md:text-5xl font-semibold text-[#0B2141] mb-10">
               VICTORIA MACALI
-            </h1>
+            </h3>
               <p className="text-[20spx] tracking-[0.35em] text-[#EF90C4] uppercase">DATA SCIENTIST • AI RESEARCHER</p>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function VictoriaMacaliWebsiteMockup() {
             </div>
 
             <a
-              href="https://raw.githubusercontent.com/victoriamacali/victoria-portfolio/main/public/vm-research.pdf"
+              href="/vm-research.pdf"
               target="_blank"
               rel="noreferrer"
               className="block text-center py-3 rounded-2xl bg-[#EF90C4] text-white"
