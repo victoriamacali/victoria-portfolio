@@ -84,7 +84,7 @@ export default function VictoriaMacaliWebsiteMockup() {
   className={`block text-center py-3 rounded-2xl ${pinkBtn}`}
 >
   Open PDF
-</a> <a className={`block text-center py-3 rounded-2xl ${pinkBtn}`}>Open PDF</a>
+</a> 
             </div>
           </div>
         </div>
