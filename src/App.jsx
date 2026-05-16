@@ -99,7 +99,7 @@ export default function VictoriaMacaliWebsiteMockup() {
               className="w-64 h-40 sm:w-80 sm:h-52 md:w-[420px] md:h-64 object-cover rounded-2xl border border-[#7586A2]/30 shadow-xl mx-auto md:mx-0"
             />
             <h3 className="font-semibold">Youth Summit Speaker</h3>
-            <a className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`} href="#">Watch Talk</a>
+            <a href="https://www.youtube.com/live/Of1g9layXzY?si=nBUNAmBh_BNcGD14&t=2743" target="_blank" rel="noreferrer" className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`}>Watch Talk ↗</a>
           </div>
 
           <div className="bg-white/70 p-6 rounded-2xl border">
@@ -109,19 +109,17 @@ export default function VictoriaMacaliWebsiteMockup() {
               className="w-64 h-40 sm:w-80 sm:h-52 md:w-[420px] md:h-64 object-cover rounded-2xl border border-[#7586A2]/30 shadow-xl mx-auto md:mx-0"
             />
             <h3 className="font-semibold">Hackathon Judge</h3>
-            <a className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`} href="#">View Event</a>
+              <a href="https://hackmesa.com/#gallery" target="_blank" rel="noreferrer" className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`}>View Event</a>
           </div>
 
           <div className="bg-white/70 p-6 rounded-2xl border">
-            <div className="h-48 rounded-2xl bg-gradient-to-br from-white to-[#EFE7DF] mb-4 flex items-center justify-center">
-            <img
+              <img
               src={mentor}
-              alt="Victoria and Mentees"
+              alt="Victoria & Mentees"
               className="w-64 h-40 sm:w-80 sm:h-52 md:w-[420px] md:h-64 object-cover rounded-2xl border border-[#7586A2]/30 shadow-xl mx-auto md:mx-0"
             />
-            </div>
-            <h3 className="font-semibold">Mentor & Tutor</h3>
-            <a className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`}>Learn More</a>
+            <h3 className="font-semibold">COE/GenExcel Mentor & Tutor</h3>
+            <a className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`} href="#">Learn More</a>
           </div>
 
         </div>
