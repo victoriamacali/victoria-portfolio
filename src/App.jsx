@@ -30,7 +30,7 @@ export default function VictoriaMacaliWebsiteMockup() {
           <div className="flex items-center gap-4">
             <div className="w-11 h-11 rounded-2xl border border-[#EF90C4]/40 flex items-center justify-center text-sm font-semibold tracking-[0.25em] bg-white/60">VM</div>
             <div>
-              <h1 className="text-lg tracking-[0.22em] font-semibold">VICTORIA MACALI</h1>
+              <h1 className="text-lg tracking-[0.22em] text-[#EF90C4] font-semibold">VICTORIA MACALI</h1>
               <p className="text-[11px] tracking-[0.35em] text-[#EF90C4] uppercase">DATA SCIENTIST • AI RESEARCHER</p>
             </div>
           </div>
