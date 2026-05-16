@@ -88,7 +88,7 @@ export default function VictoriaMacaliWebsiteMockup() {
             </div>
 
             <a
-              href="/vm-research.pdf"
+              href="public/vm-research.pdf"
               target="_blank"
               rel="noreferrer"
               className="block text-center py-3 rounded-2xl bg-[#EF90C4] text-white"
