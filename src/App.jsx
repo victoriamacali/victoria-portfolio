@@ -99,7 +99,7 @@ export default function VictoriaMacaliWebsiteMockup() {
               className="w-64 h-40 sm:w-80 sm:h-52 md:w-[420px] md:h-64 object-cover rounded-2xl border border-[#7586A2]/30 shadow-xl mx-auto md:mx-0"
             />
             <h3 className="font-semibold">Youth Summit Speaker</h3>
-            <a href="https://www.youtube.com/live/Of1g9layXzY?si=nBUNAmBh_BNcGD14&t=2743" target="_blank" rel="noreferrer" className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`}>Watch Talk ↗</a>
+            <a href="https://www.youtube.com/live/Of1g9layXzY?si=RIfz35szz0btD3lf&t=2820" target="_blank" rel="noreferrer" className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`}>Watch Talk ↗</a>
           </div>
 
           <div className="bg-white/70 p-6 rounded-2xl border">
