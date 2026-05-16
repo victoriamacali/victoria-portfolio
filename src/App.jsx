@@ -82,7 +82,7 @@ export default function VictoriaMacaliWebsiteMockup() {
 
             <div className="w-full lg:w-[320px] bg-[#F5EFEA] text-black p-6 rounded-2xl">
               <div className="h-40 bg-gradient-to-br from-gray-200 to-gray-100 rounded-xl mb-4" />
-                  <a href="#" className={`block text-center py-3 rounded-2xl ${pinkBtn}`}>Open PDF</a>
+              <a href="/AI Security Applied to AIxBio - Victoria Macali.pdf" target="_blank" rel="noreferrer" className={`block text-center py-3 rounded-2xl ${pinkBtn}`}>Open PDF</a>
             </div>
           </div>
         </div>
