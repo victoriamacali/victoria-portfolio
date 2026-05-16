@@ -7,6 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-
-  base: '/victoria-portfolio/',
+base: '/victoria-portfolio/'
 })
