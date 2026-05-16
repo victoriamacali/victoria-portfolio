@@ -56,13 +56,13 @@ export default function VictoriaMacaliWebsiteMockup() {
     </h2>
 
     <div className="flex justify-center md:justify-end">
-      <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full bg-white/70 border border-[#7586A2]/30 shadow-xl flex items-center justify-center">
-<img
-  src={portrait}
-  alt="Victoria portrait"
-  className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full object-cover border border-[#7586A2]/30 shadow-xl"
-/>
-      </div>
+        <div className="flex justify-center md:justify-end">
+            <img
+              src={portrait}
+              alt="Victoria portrait"
+              className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full object-cover border border-[#7586A2]/30 shadow-xl"
+            />
+        </div>
     </div>
 
   </div>
