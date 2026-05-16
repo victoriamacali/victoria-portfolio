@@ -1,5 +1,5 @@
 import { useState } from "react";
-import portrait from "./assets/vmaclinkedinpfp.png"
+import portrait from "./assets/vmac-linkedinpfp.png"
 
 export default function VictoriaMacaliWebsiteMockup() {
   const [menuOpen, setMenuOpen] = useState(false);
