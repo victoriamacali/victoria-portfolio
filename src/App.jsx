@@ -1,6 +1,6 @@
 import { useState } from "react";
 import portrait from "./assets/profilepic.png"
-
+import mentor from "./assets/mentorpic.png"
 export default function VictoriaMacaliWebsiteMockup() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [speakerIndex, setSpeakerIndex] = useState(0);
@@ -101,10 +101,10 @@ export default function VictoriaMacaliWebsiteMockup() {
 
           <div className="bg-white/70 p-6 rounded-2xl border">
             <img
-  src={judgeImages[judgeIndex]}
-  alt="Hackathon Judge"
-  className="rounded-2xl h-48 w-full object-cover mb-4"
-/>
+              src={mentor}
+              alt="Victoria and Mentees"
+              className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full object-cover border border-[#7586A2]/30 shadow-xl"
+            />
             <h3 className="font-semibold">Hackathon Judge</h3>
             <a className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`} href="#">View Event</a>
           </div>
