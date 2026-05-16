@@ -2,6 +2,7 @@ import { useState } from "react";
 import portrait from "./assets/profilepic.png"
 import mentor from "./assets/mentorpic.png"
 import speaker from "./assets/speakerpic.png"
+import judge from "./assets/hackmesa.png"
 
 export default function VictoriaMacaliWebsiteMockup() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ export default function VictoriaMacaliWebsiteMockup() {
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
           <div className="flex items-center gap-4">
-            <div className="w-11 h-11 rounded-2xl border border-[#EF90C4]/40 flex items-center justify-center text-sm font-semibold tracking-[0.25em] bg-white/60">VM</div>
+            <div className="w-11 h-11 rounded-2xl border border-[#EF90C4]/40 flex items-center justify-center text-sm font-semibold tracking-[0.25em] bg-[#0B2141]/10 text-[#0B2141]">VM</div>
             <div>
                 <h1 className="text-lg tracking-[0.22em] text-[#EF90C4] font-semibold">VICTORIA MACALI</h1>
               <p className="text-[11px] tracking-[0.35em] text-[#EF90C4] uppercase">DATA SCIENTIST • AI RESEARCHER</p>
@@ -95,7 +96,7 @@ export default function VictoriaMacaliWebsiteMockup() {
               <img
               src={speaker}
               alt="Victoria at SEC Podium"
-              className="w-40 h-52 sm:w-52 sm:h-64 md:w-72 md:h-96 object-cover border border-[#7586A2]/30 shadow-xl rounded-2xl mx-auto md:mx-0"
+              className="w-64 h-40 sm:w-80 sm:h-52 md:w-[420px] md:h-64 object-cover rounded-2xl border border-[#7586A2]/30 shadow-xl mx-auto md:mx-0"
             />
             <h3 className="font-semibold">Youth Summit Speaker</h3>
             <a className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`} href="#">Watch Talk</a>
@@ -103,9 +104,9 @@ export default function VictoriaMacaliWebsiteMockup() {
 
           <div className="bg-white/70 p-6 rounded-2xl border">
             <img
-              src={mentor}
-              alt="Victoria and Mentees"
-              className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full object-cover border border-[#7586A2]/30 shadow-xl"
+              src={judge}
+              alt="HackMesa Judges"
+              className="w-64 h-40 sm:w-80 sm:h-52 md:w-[420px] md:h-64 object-cover rounded-2xl border border-[#7586A2]/30 shadow-xl mx-auto md:mx-0"
             />
             <h3 className="font-semibold">Hackathon Judge</h3>
             <a className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`} href="#">View Event</a>
@@ -116,7 +117,7 @@ export default function VictoriaMacaliWebsiteMockup() {
             <img
               src={mentor}
               alt="Victoria and Mentees"
-              className="w-40 h-52 sm:w-52 sm:h-64 md:w-72 md:h-96 object-cover border border-[#7586A2]/30 shadow-xl rounded-2xl mx-auto md:mx-0"
+              className="w-64 h-40 sm:w-80 sm:h-52 md:w-[420px] md:h-64 object-cover rounded-2xl border border-[#7586A2]/30 shadow-xl mx-auto md:mx-0"
             />
             </div>
             <h3 className="font-semibold">Mentor & Tutor</h3>
