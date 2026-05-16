@@ -1,6 +1,8 @@
 import { useState } from "react";
 import portrait from "./assets/profilepic.png"
 import mentor from "./assets/mentorpic.png"
+import speaker from "./assets/speakerpic.png"
+
 export default function VictoriaMacaliWebsiteMockup() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [speakerIndex, setSpeakerIndex] = useState(0);
@@ -90,11 +92,11 @@ export default function VictoriaMacaliWebsiteMockup() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
           <div className="bg-white/70 p-6 rounded-2xl border">
-            <img
-  src={speakerImages[speakerIndex]}
-  alt="Youth Summit Speaker"
-  className="rounded-2xl h-48 w-full object-cover mb-4"
-/>
+              <img
+              src={speaker}
+              alt="Victoria at SEC Podium"
+              className="w-40 h-52 sm:w-52 sm:h-64 md:w-72 md:h-96 object-cover border border-[#7586A2]/30 shadow-xl rounded-2xl mx-auto md:mx-0"
+            />
             <h3 className="font-semibold">Youth Summit Speaker</h3>
             <a className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`} href="#">Watch Talk</a>
           </div>
@@ -114,7 +116,7 @@ export default function VictoriaMacaliWebsiteMockup() {
             <img
               src={mentor}
               alt="Victoria and Mentees"
-              className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full object-cover border border-[#7586A2]/30 shadow-xl"
+              className="w-40 h-52 sm:w-52 sm:h-64 md:w-72 md:h-96 object-cover border border-[#7586A2]/30 shadow-xl rounded-2xl mx-auto md:mx-0"
             />
             </div>
             <h3 className="font-semibold">Mentor & Tutor</h3>
