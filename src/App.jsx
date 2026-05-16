@@ -1,4 +1,5 @@
 import { useState } from "react";
+import portrait from "./assets/vmaclinkedinpfp.png"
 
 export default function VictoriaMacaliWebsiteMockup() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -55,9 +56,11 @@ export default function VictoriaMacaliWebsiteMockup() {
 
     <div className="flex justify-center md:justify-end">
       <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full bg-white/70 border border-[#7586A2]/30 shadow-xl flex items-center justify-center">
-        <span className="text-[#7586A2] uppercase tracking-[0.2em] text-xs sm:text-sm">
-          Portrait
-        </span>
+<img
+  src={portrait}
+  alt="Victoria portrait"
+  className="w-64 h-64 object-cover rounded-full"
+/>
       </div>
     </div>
 
