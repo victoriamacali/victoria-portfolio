@@ -81,10 +81,22 @@ export default function VictoriaMacaliWebsiteMockup() {
               <p className="text-white/70">AI governance, security analysis, and dual-use risk research.</p>
             </div>
 
-            <div className="w-full lg:w-[320px] bg-[#F5EFEA] text-black p-6 rounded-2xl">
-              <div className="h-40 bg-gradient-to-br from-gray-200 to-gray-100 rounded-xl mb-4" />
-              <a href="/vm-research.pdf" target="_blank" rel="noreferrer" className={`block text-center py-3 rounded-2xl ${pinkBtn}`}>Open PDF</a>
+            <div className="rounded-2xl overflow-hidden border border-[#7586A2]/30 mb-4">
+              <iframe
+                src="public/vm-research.pdf"
+                className="w-full h-64"
+              />
             </div>
+
+            <a
+              href="/vm-research.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="block text-center py-3 rounded-2xl bg-[#EF90C4] text-white"
+            >
+              Open Full PDF
+            </a>
+
           </div>
         </div>
       </section>
