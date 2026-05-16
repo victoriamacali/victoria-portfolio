@@ -31,12 +31,11 @@ export default function VictoriaMacaliWebsiteMockup() {
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
           <div className="flex items-center gap-4">
-            <div className="w-11 h-11 rounded-2xl border border-[#EF90C4]/40 flex items-center justify-center text-sm font-semibold tracking-[0.25em] bg-[#0B2141]/10 text-[#0B2141]">VM</div>
             <div>
             <h1 className="text-lg tracking-[0.22em] !text-black font-semibold">
               VICTORIA MACALI
             </h1>
-              <p className="text-[24px] tracking-[0.35em] text-[#EF90C4] uppercase">DATA SCIENTIST • AI RESEARCHER</p>
+              <p className="text-[20spx] tracking-[0.35em] text-[#EF90C4] uppercase">DATA SCIENTIST • AI RESEARCHER</p>
             </div>
           </div>
 
