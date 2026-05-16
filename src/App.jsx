@@ -59,7 +59,7 @@ export default function VictoriaMacaliWebsiteMockup() {
 <img
   src={portrait}
   alt="Victoria portrait"
-  className="w-64 h-64 object-cover rounded-full"
+  className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full object-cover border border-[#7586A2]/30 shadow-xl"
 />
       </div>
     </div>
