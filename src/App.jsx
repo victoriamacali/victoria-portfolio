@@ -82,13 +82,13 @@ export default function VictoriaMacaliWebsiteMockup() {
 
             <div className="rounded-2xl overflow-hidden border border-[#7586A2]/30 mb-4">
               <iframe
-                src="public/vm-research.pdf"
+                src="/victoria-portfolio/vm-research.pdf"
                 className="w-full h-64"
               />
             </div>
 
             <a
-              href="public/vm-research.pdf"
+              href="victoria-portfolio/vm-research.pdf"
               target="_blank"
               rel="noreferrer"
               className="block text-center py-3 rounded-2xl bg-[#EF90C4] text-white"
