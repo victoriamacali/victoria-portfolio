@@ -111,7 +111,11 @@ export default function VictoriaMacaliWebsiteMockup() {
 
           <div className="bg-white/70 p-6 rounded-2xl border">
             <div className="h-48 rounded-2xl bg-gradient-to-br from-white to-[#EFE7DF] mb-4 flex items-center justify-center">
-              <span className="text-[#7586A2] uppercase tracking-[0.2em] text-sm">Portrait</span>
+            <img
+              src={mentor}
+              alt="Victoria and Mentees"
+              className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full object-cover border border-[#7586A2]/30 shadow-xl"
+            />
             </div>
             <h3 className="font-semibold">Mentor & Tutor</h3>
             <a className={`block text-center py-3 mt-4 rounded-2xl ${pinkBtn}`}>Learn More</a>
